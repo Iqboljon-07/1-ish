@@ -1,0 +1,35 @@
+@import "./styles/section/main";
+@import"./styles/section/aside";
+@import"./styles/section/footer";
+@import"./styles/section/header";
+@import"./styles/section/mark";
+
+*{
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+}
+
+body{
+
+
+    width: 1152px;
+height: 1534px;
+
+
+}
+
+@media(max-width:400px){
+
+body{
+
+    width: 375px;
+    height: 2165px;
+    
+
+}
+
+    
+}

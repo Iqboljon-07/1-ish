@@ -1,0 +1,412 @@
+main {
+  width: 100%;
+}
+main nav {
+  height: 70px;
+  width: 1152;
+  padding: 35px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+main nav ul {
+  width: 243px;
+  height: 43px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main nav li {
+  font-family: Heebo;
+  line-height: 29.38px;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media (max-width: 400px) {
+  main nav ul {
+    display: none;
+  }
+}
+@media (min-width: 400px) {
+  main nav .fa-bars {
+    display: none;
+  }
+}
+aside {
+  width: 100%;
+  height: 525px;
+  display: flex;
+  justify-content: center;
+}
+aside .aside-1 {
+  width: 855px;
+  height: 525px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+aside .aside-2 {
+  display: flex;
+  justify-content: space-between;
+}
+aside .aside-2 img {
+  width: 243px;
+  height: 243px;
+}
+aside .aside-2 .aside-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+aside .aside-2 .aside-3 h1 {
+  font-family: Heebo;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  width: 440px;
+}
+aside .aside-2 .aside-3 p {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+}
+aside .aside-2 .aside-3 button {
+  width: 208px;
+  height: 47px;
+  background: rgb(255, 100, 100);
+  border-radius: 2px;
+  border: none;
+  font-family: Heebo;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  aside {
+    height: 616px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+  }
+  .aside-1 {
+    height: 616px;
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .aside-1 .aside-2 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .aside-1 .aside-2 img {
+    width: 174.38px;
+    height: 180px;
+  }
+  .aside-1 .aside-2 .aside-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aside-1 .aside-2 .aside-3 h1 {
+    font-family: Heebo;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+    height: 120px;
+  }
+  .aside-1 .aside-2 .aside-3 p {
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+    text-align: center;
+    width: 328px;
+    height: 96px;
+  }
+  .aside-1 .aside-2 .aside-3 button {
+    width: 208px;
+    height: 47px;
+    border-radius: 2px;
+  }
+}
+footer {
+  width: 100%;
+  height: 182px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer-1 {
+  width: 225px;
+  height: 77px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .footer-1 i {
+  font-size: 30px;
+}
+footer .footer-1 p {
+  font-family: Heebo;
+  line-height: 20.56px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+header {
+  height: 396px;
+  background: rgb(237, 247, 250);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+header .container-2 {
+  width: 856px;
+  height: 396px;
+  display: flex;
+  flex-direction: column;
+}
+header .container-2 .container-3 {
+  display: flex;
+  justify-content: space-between;
+}
+header .container-2 .container-3 p:nth-child(1) {
+  width: 129px;
+  height: 60px;
+  font-family: Heebo;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+}
+header .container-2 .container-3 p:nth-child(2) {
+  width: 129px;
+  height: 60px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: right;
+  color: rgb(0, 168, 204);
+}
+header .container-2 .container-4 {
+  display: flex;
+  justify-content: space-between;
+}
+header .container-2 .container-4 .quti-1 {
+  width: 418px;
+  height: 295px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 23px 0 21px;
+}
+header .container-2 .container-4 .quti-1 h1 {
+  font-family: Heebo;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 38.19px;
+  text-align: left;
+}
+header .container-2 .container-4 .quti-1 .container-5 {
+  display: flex;
+  width: 374px;
+  height: 34px;
+  gap: 26px;
+}
+header .container-2 .container-4 .quti-1 .container-5 p {
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.44px;
+  text-align: left;
+}
+header .container-2 .container-4 .quti-1 .p-1 {
+  width: 368px;
+  height: 117px;
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  word-spacing: 5px;
+  line-height: 23.5px;
+}
+header .container-2 .container-4 div:nth-child(2) {
+  width: 418px;
+  height: 295px;
+  border-radius: 4px;
+}
+
+@media (max-width: 400px) {
+  header {
+    width: 100%;
+    height: 647px;
+  }
+  header .container-2 {
+    width: 375px;
+    height: 647px;
+    display: flex;
+    flex-direction: column;
+  }
+  header .container-2 .container-3 {
+    display: flex;
+    justify-content: center;
+  }
+  header .container-2 .container-3 p:nth-child(1) {
+    text-align: center;
+  }
+  header .container-2 .container-3 p:nth-child(2) {
+    display: none;
+  }
+  .container-4 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+mark {
+  height: 868px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+mark .mark-1 {
+  width: 858px;
+  height: 868px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+mark .mark-1 h4 {
+  width: 152px;
+  height: 60px;
+  font-family: Heebo;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+}
+mark .mark-1 .mark-2 {
+  display: grid;
+  grid-template-columns: repeat(1, 858px);
+  grid-template-rows: 195px 215px 215px;
+  gap: 30px;
+}
+mark .mark-1 .mark-2 .mark-3 {
+  display: flex;
+  gap: 18px;
+  border-bottom: 1px solid grey;
+}
+mark .mark-1 .mark-2 .mark-3 img {
+  width: 246px;
+  height: 184px;
+}
+mark .mark-1 .mark-2 .mark-3 .mark-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+mark .mark-1 .mark-2 .mark-3 .mark-4 h1 {
+  font-family: Heebo;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44.06px;
+  text-align: left;
+}
+mark .mark-1 .mark-2 .mark-3 .mark-4 .mark-5 {
+  display: flex;
+  gap: 36px;
+}
+mark .mark-1 .mark-2 .mark-3 .mark-4 .mark-5 h2 {
+  width: 62px;
+  height: 25px;
+  text-align: center;
+  border-radius: 16px;
+  background: rgb(20, 40, 80);
+  color: white;
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+  text-align: center;
+}
+mark .mark-1 .mark-2 .mark-3 .mark-4 .mark-5 p {
+  font-family: Heebo;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29.38px;
+  text-align: left;
+}
+mark .mark-1 .mark-2 .mark-3 .mark-4 p {
+  font-family: Heebo;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  text-align: left;
+  width: 594px;
+}
+
+@media (max-width: 400px) {
+  mark {
+    width: 100%;
+    height: 455px;
+    display: flex;
+    align-items: center;
+  }
+  mark .mark-1 {
+    width: 100%;
+    height: 455px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .mark-2 {
+    width: 344px;
+    height: 455px;
+    display: flex;
+    flex-direction: column;
+  }
+  .mark-2 .mark-3 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 400px) {
+  .mark-1 .mark-2 .mark-3:nth-child(2), .mark-1 .mark-2 .mark-3:nth-child(3) {
+    display: none;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1152px;
+  height: 1534px;
+}
+
+@media (max-width: 400px) {
+  body {
+    width: 375px;
+    height: 2165px;
+  }
+}/*# sourceMappingURL=global.css.map */

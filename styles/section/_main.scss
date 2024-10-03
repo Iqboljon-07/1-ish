@@ -1,0 +1,88 @@
+@mixin changeBtn($font-size,$font-weight){
+
+    font-size: $font-size;
+    font-weight: $font-weight;
+    
+    }
+    
+    $primarycolor:red;
+    
+    main{
+    
+  
+        width:100%;
+    
+        nav{
+    
+            height:70px;
+            width:1152;
+            
+            padding:35px ;
+            display:flex;
+            justify-content: flex-end;
+            align-items: center;
+       
+         
+            ul{
+            
+            width:243px;
+            height:43px;
+            
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            }
+            
+            li{
+                font-family: Heebo;
+               
+                line-height: 29.38px;
+                text-align: right;
+                @include changeBtn(20px, 500);
+           
+            
+            }
+            }
+    }
+    
+
+
+
+    
+    @media(max-width:400px){
+    
+    main{
+    nav{
+    
+    ul{
+    
+        display:none;
+    }
+    
+    }
+    
+    
+    }
+    
+    }
+    
+    @media(min-width:400px){
+    main{
+    nav{
+    
+        .fa-bars{
+    
+        display:none;
+    }
+    
+    }
+    
+    
+    }
+    
+    
+    }
+
+
+   
